@@ -1,21 +1,81 @@
-MIT License
+StickyNotes Pro
+===============
 
-Copyright (c) 2026 abdelrhman walid
+Copyright (c) 2026 StickyNotes Pro Contributors. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+PROPRIETARY LICENSE AGREEMENT — SOURCE AVAILABLE
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This repository is published so that users, reviewers and researchers can
+READ and AUDIT the source code — in particular to verify the security and
+integrity claims of the signed StickyNotes Pro releases. Publication of the
+source code is NOT a grant of rights to copy, modify or redistribute it.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. DEFINITIONS
+   "Software" means the StickyNotes Pro application, its source code,
+   documentation, images, build scripts and other contents of this
+   repository, whether in source or compiled form, collectively.
+
+2. WHAT YOU MAY DO (without asking permission)
+   2.1 View and study the Software in this repository.
+   2.2 Download the Software privately and build it on your own computer(s)
+       for the sole purposes of evaluation, security auditing and verifying
+       that a signed release you received matches this source code.
+   2.3 Quote short excerpts (as permitted by applicable fair-use law) in
+       reviews, audits or academic discussion, with attribution.
+
+3. WHAT YOU MAY NOT DO
+   Except as stated in section 2, or with the prior written permission of
+   the copyright holder(s), you may not:
+   (a) copy, republish, upload, mirror or redistribute the Software, in
+       whole or in part, in source or compiled form;
+   (b) modify the Software or create derivative works of it, or distribute
+       such modifications or derivatives;
+   (c) sell, rent, lease, sublicense or otherwise commercially exploit the
+       Software or access to it;
+   (d) use the Software's name, brand, artwork or certificate identity
+       ("StickyNotes Pro", "StickyNotes Pro Release Signing") to name,
+       brand or sign any other product or release;
+   (e) remove or alter any copyright, license or attribution notice;
+   (f) disclose or misuse any signing keys, certificates or credentials
+       that you may possess as a result of a security audit.
+
+   NOTE — private builds you make under section 2.2 are NOT genuine
+   releases: only binaries signed with the pinned release certificate pass
+   the built-in integrity verification. Do not give your private builds to
+   anyone. distributed binaries must come from the official releases.
+
+4. USE OF COMPILED (RELEASE) BINARIES
+   Installing or using the official compiled releases of the Software is
+   governed exclusively by the End User Terms and Conditions in
+   `installer/LICENSE.rtf` (presented and accepted during Setup). In case of
+   conflict between this file and that Agreement, that Agreement prevails
+   for the use of release binaries.
+
+5. CONTRIBUTIONS
+   Bug reports and suggestions are welcome. If you submit code (issues,
+   patches, pull requests), you agree that the contribution is your
+   original work, that you have the right to submit it, and that you grant
+   the copyright holder(s) a perpetual, irrevocable, worldwide, royalty-free
+   license to use, modify and distribute it as part of the Software, under
+   whatever license terms they choose.
+
+6. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF
+   ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, SECURITY AND
+   NON-INFRINGEMENT. USE AT YOUR OWN RISK.
+
+7. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE COPYRIGHT
+   HOLDER(S) OR CONTRIBUTORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+   SPECIAL OR CONSEQUENTIAL DAMAGES, OR FOR ANY LOSS OF DATA, PROFITS,
+   MISSED DEADLINES OR BUSINESS INTERRUPTION, ARISING OUT OF OR IN
+   CONNECTION WITH THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+   DAMAGES.
+
+8. GOVERNING LAW
+   This License is governed by the laws of the Arab Republic of Egypt,
+   without regard to conflict-of-law rules.
+
+9. QUESTIONS / PERMISSION REQUESTS
+   Open an issue in this repository.
