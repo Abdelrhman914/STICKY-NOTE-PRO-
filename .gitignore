@@ -1,0 +1,48 @@
+# ==========================================================================
+#  StickyNotes Pro — files that must NEVER enter the git repository
+# ==========================================================================
+
+# --- 1. PRIVATE SIGNING MATERIAL (most critical) --------------------------
+#      The code-signing private key and its password. If these ever leak,
+#      anyone can sign malware the app will accept as genuine.
+signing/
+*.pfx
+*.p12
+*.pvk
+*.snk
+pfx-password.txt
+.codesign.cnf
+codesign.cnf
+
+# --- 2. Built binaries & release artifacts --------------------------------
+#      These are ATTACHED to a GitHub Release, not committed to git.
+*.exe
+*.dll
+*.msi
+release/
+StickyNotesPro.exe.config
+SHA256SUMS.txt
+*.cer
+StickyNotesPro_*_Certificate_of_Integrity.pdf
+StickyNotesPro_*_release-manifest.json
+
+# --- 3. Compiler / tooling output -----------------------------------------
+bin/
+obj/
+out/
+*.user
+*.suo
+*.nupkg
+packages/
+.vs/
+
+# --- 4. OS / editor noise --------------------------------------------------
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+*.tmp
+*.log
+
+# --- 5. Local tooling caches ----------------------------------------------
+.cache/
